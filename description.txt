@@ -1,0 +1,30 @@
+Name: Ananya Gobbur (25021_205)
+
+Project Name: Minishell 
+Overall project description
+
+This project implements a basic mini shell in C. It takes commands from the user, processes them, and executes internal and external commands similar to a Linux shell.
+
+main.c
+
+This file contains the main function of the minishell. It initializes the shell prompt, handles signals, reads user input, and controls the overall flow of the shell execution.
+
+header.h
+
+This file contains all the function declarations, macros, and required header files. It is used to share common definitions across all source files.
+
+scan_input.c
+
+This file is responsible for reading the command entered by the user. It processes the input string and helps in identifying the command and its arguments.
+
+commands.c
+
+This file handles internal shell commands. It checks whether the entered command is a built in command and executes the corresponding functionality.
+
+ext_commands.txt
+
+This file stores the list of external commands supported by the shell. It is used to verify and execute commands that are not built in.
+
+msh
+
+This is the executable file generated after compiling the minishell source code. It is used to run the shell.
